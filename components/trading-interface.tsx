@@ -63,12 +63,12 @@ export default function TradingInterface() {
           </div>
 
           {/* Mobile Chart */}
-          <div className="h-48 sm:h-64 bg-card/80 dark:bg-gray-900/80 backdrop-blur-sm border dark:border-gray-800 rounded-xl shadow-lg">
+          <div className="h-[450px] sm:h-[450px] bg-card/80 dark:bg-gray-900/80 backdrop-blur-sm border dark:border-gray-800 rounded-xl shadow-lg">
             <TradingChart pair={selectedPair} />
           </div>
 
           {/* Mobile Order Forms */}
-          <div className="h-80 sm:h-96 bg-card/80 dark:bg-gray-900/80 backdrop-blur-sm border dark:border-gray-800 rounded-xl shadow-lg">
+          <div className="h-130 sm:h-100 bg-card/80 dark:bg-gray-900/80 backdrop-blur-sm border dark:border-gray-800 rounded-xl shadow-lg">
             <OrderForms pair={selectedPair} />
           </div>
 
